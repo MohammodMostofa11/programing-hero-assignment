@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles */
+.primary{
+    color: #E55473;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    margin-bottom: 150px;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+}
+.header-containar{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    height: 91.5vh;
+    
+}
+.header-details{
+    padding: 200px 100px 0px 240px;
+}
+.header-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 0px ;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-pic{
+    margin: 50px 240px 0px 0px;
+}
+.header-flower{
+    margin-bottom: 0px;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+/* featured section style  */
+.primary-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 180px;
+}
+
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.featured{
+    width: 80%;
+    margin: auto;
+}
+.featured-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.featured-pink-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 80px 0px 80px;
+    border: none;
+    
+}
+.featured-mixed-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 60px 0px 60px;
+    border: none;
+    
+}
+.featured-yellow-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 80px 0px 80px;
+    
+}
+.flower{
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+ul li{
+    list-style: none;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 32px;
+}
+/* deals section style  */
+
+.deals-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    border: none;
+}
+.deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    width: 95%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.deal-offer{
+    padding: 230px 0px 0px 400px;
+}
+.deal-image{
+    padding: 100px 430px 100px 185px;
+}
+.deal-btn{
+    margin-left: 185px;
+}
+/* deal end  */
+/* socail platform */
+.social-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.socail-picture{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    /* margin-left: 240px;
+    margin-right: 240px; */
+    margin: 0px 177px;
+    margin-bottom: 128px;
+}
+
+/* onlie section styles */
+.online-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+    background: rgba(229, 84, 115, 0.10);
+    border: none;
+    background-image: url("/john-mark-smith-219068-unsplash-1075x605.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 128px;
+}
+
+.last-second-btn{
+    margin-left: 60px;
+    margin-top: 16px;
+}
+.online-title{
+    color: #faffff;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 128px;
+}
+.noline-description{
+    color: rgba(255, 237, 237, 0.6);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+/* update deal start  */
+.update-deal{
+    background-image: url("./Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    
+}
+.update-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    
+    }
+.update-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+
+}
+.update-deal input[type="email"] {
+    padding: 23px 513px 22px 22px;
+    border: none;
+    margin: 48px 0px 120px 285px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.last-btn{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 30px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    margin-left: 16px;
+}
+/* footer related styles */
+footer{
+    text-align: center;
+    background-color:#111010;
+    margin-top: 128px;
+}
+.shop-modifi{
+    color: #E55473;
+}
+.shop-name{
+    color: #ffff;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+}
+.shop-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.shop-rights{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-bottom: 128px;
+}
